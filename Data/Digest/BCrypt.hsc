@@ -16,6 +16,7 @@ import Foreign
 import Foreign.C.Types
 import Foreign.C.String
 import qualified Foreign.Ptr ( nullPtr )
+import System.IO.Unsafe (unsafePerformIO)
 import qualified System.IO.Unsafe ( unsafePerformIO )
 import Data.ByteString.Char8 (split)
 import qualified Data.ByteString.Unsafe as B
